@@ -28,8 +28,10 @@ const respostas = [
 function fazerPergunta() {
   if(inputPergunta.value == ""){
     alert("Digite sua Pergunta")
-    return
+  }else{
+    alert("Digite uma pergunta valida")
   }
+  
 
   butaoPerguntar.setAttribute("disabled", true)
 
